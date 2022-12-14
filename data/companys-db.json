@@ -1,0 +1,119 @@
+[
+   {
+      "name": "Google",
+      "full_name": "Google LLC",
+      "founded": "September 4, 1998",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/440px-Google_2015_logo.svg.png",
+      "location": "USA"
+   },
+   {
+      "name": "Mozilla",
+      "full_name": "Mozilla Corporation",
+      "industry": [
+         "Software"
+      ],
+      "founded": "August 3, 2005",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mozilla_logo.svg/440px-Mozilla_logo.svg.png",
+      "location": "USA"
+   },
+   {
+      "name": "Microsoft",
+      "full_name": "Microsoft Corporation",
+      "industry": [
+         "IT"
+      ],
+      "founded": "April 4, 1975",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/500px-Microsoft_logo_%282012%29.svg.png",
+      "location": "USA"
+   },
+   {
+      "name": "DuckDuckGo",
+      "full_name": "Duck Duck Go, Inc.",
+      "industry": [
+         "Search Engine"
+      ],
+      "founded": "September 25, 2008",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/DuckDuckGo_logo.svg/300px-DuckDuckGo_logo.svg.png",
+      "location": "Worldwide"
+   },
+   {
+      "name": "Fitbit",
+      "full_name": "Fitbit LLC",
+      "industry": [
+         "Consumer electronics"
+      ],
+      "founded": "September 25, 2008",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fitbit_logo16.svg/500px-Fitbit_logo16.svg.png",
+      "location": "USA"
+   },
+   {
+      "name": "Samsung Electronics",
+      "full_name": "Samsung Electronics Co., Ltd.",
+      "industry": [
+         "Consumer electronics"
+      ],
+      "founded": "January 13, 1969",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/440px-Samsung_wordmark.svg.png",
+      "location": "South Korea"
+   },
+   {
+      "name": "Wikipedia",
+      "full_name": "Wikipedia",
+      "industry": [
+         "Online encyclopedia"
+      ],
+      "founded": "January 15, 2001",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/300px-Wikipedia-logo-v2.svg.png",
+      "location": "USA"
+   },
+   {
+      "name": "Brave Software",
+      "full_name": "Brave Software, Inc.",
+      "industry": [
+         "Software"
+      ],
+      "founded": "November 13, 2019",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Brave_logo.svg/240px-Brave_logo.svg.png",
+      "location": "USA"
+   },
+   {
+      "name": "Garmin",
+      "full_name": "Garmin Ltd.",
+      "industry": [
+         "Consumer electronics"
+      ],
+      "founded": "October, 1989",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Garmin_logo_2006.svg/440px-Garmin_logo_2006.svg.png",
+      "location": "USA"
+   },
+   {
+      "name": "ITV",
+      "full_name": "Independent Television",
+      "industry": [
+         "Mass media"
+      ],
+      "founded": "September 22, 1955",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/320px-ITV1_logo_%282022%29.svg.png",
+      "location": "UK"
+   },
+   {
+      "name": "BBC",
+      "full_name": "British Broadcasting Corporation",
+      "industry": [
+         "Mass media"
+      ],
+      "founded": "October 18, 1922",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/440px-BBC_Logo_2021.svg.png",
+      "location": "UK"
+   },
+   {
+      "name": "UTV",
+      "full_name": "Ulster Television",
+      "industry": [
+         "Mass media"
+      ],
+      "founded": "October 31, 1959",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/UTV_2016.svg/300px-UTV_2016.svg.png",
+      "location": "NI"
+   }
+]
