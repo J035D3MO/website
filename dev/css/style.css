@@ -1,0 +1,12 @@
+body {background: cyan;  margin: 0;}
+header {
+  padding: 5px;
+  text-align: center;
+  background: blueviolet;
+  color: white;
+  font-size: 30px;
+}
+h1, button {font-family: Calibri, 'Trebuchet MS', sans-serif;color: azure;}
+button {font-size: 30px;}
+a {text-decoration: none;}
+#image {height: 400px;width: 400px;}

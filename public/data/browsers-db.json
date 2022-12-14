@@ -3,7 +3,7 @@
     "author": "***REMOVED*** <***REMOVED***>",
     "about": "Database of web browsers"
   },
-  "data": [
+  "items": [
     {
       "name": "Firefox",
       "image": "https://i.imgur.com/6FDr1Mu.png",
@@ -29,7 +29,7 @@
       "name": "Brave",
       "image": "https://i.imgur.com/Nz0xuAL.png",
       "release": "13 November 2019",
-      "company": "Brave",
+      "company": "Brave Software",
       "source": "open"
     },
     {
@@ -82,15 +82,8 @@
       "source": "open"
     },
     {
-      "name": "Android System WebViw",
-      "image": "https://i.imgur.com/C51rv0G.png",
-      "release": "N/A",
-      "company": "Google",
-      "source": "closed"
-    },
-    {
       "name": "Opera GX",
-      "image": "https://i.imgur.com/oIlaz33.png",
+      "image": "https://i.imgur.com/N1eQbHk.png",
       "release": "June 11, 2019",
       "company": "Opera",
       "source": "closed"

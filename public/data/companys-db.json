@@ -1,4 +1,5 @@
-[
+{
+   "items": [
    {
       "name": "Google",
       "full_name": "Google LLC",
@@ -117,3 +118,4 @@
       "location": "NI"
    }
 ]
+}
