@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "author": "***REMOVED*** <***REMOVED***>",
+    "about": "Database of web browsers"
+  },
+  "data": [
+    {
+      "name": "Firefox",
+      "image": "https://i.imgur.com/6FDr1Mu.png",
+      "release": "November 9, 2004",
+      "company": "Mozilla",
+      "source": "open"
+    },
+    {
+      "name": "Chrome",
+      "image": "https://i.imgur.com/NBqn30o.png",
+      "release": "September 2, 2008",
+      "company": "Google",
+      "source": "closed"
+    },
+    {
+      "name": "Chromium",
+      "image": "https://i.imgur.com/3BHAvv2.png",
+      "release": "2 September 2008",
+      "company": "Google",
+      "source": "open"
+    },
+    {
+      "name": "Brave",
+      "image": "https://i.imgur.com/Nz0xuAL.png",
+      "release": "13 November 2019",
+      "company": "Brave",
+      "source": "open"
+    },
+    {
+      "name": "Edge",
+      "image": "https://i.imgur.com/XbOFdSK.png",
+      "release": "April 29, 2015",
+      "company": "Microsoft",
+      "source": "closed"
+    },
+    {
+      "name": "Waterfox",
+      "image": "https://i.imgur.com/ant3oYz.png",
+      "release": "27 March 2011",
+      "company": "System1",
+      "source": "open"
+    },
+    {
+      "name": "Yandex",
+      "image": "https://i.imgur.com/Ion5Fp1.png",
+      "release": "1 October 2012",
+      "company": "Yandex / Mail.ru",
+      "source": "closed"
+    },
+    {
+      "name": "Netscape",
+      "image": "https://i.imgur.com/5MTpW6g.png",
+      "release": "15 December 1994",
+      "company": "Netscape",
+      "source": "closed"
+    },
+    {
+      "name": "Internet Explorer",
+      "image": "https://i.imgur.com/8ZegwZK.png",
+      "release": "August 24, 1995",
+      "company": "Microsoft",
+      "source": "closed"
+    },
+    {
+      "name": "Safari",
+      "image": "https://i.imgur.com/h9bytrY.png",
+      "release": "January 7, 2003",
+      "company": "Apple",
+      "source": "closed"
+    },
+    {
+      "name": "Tor",
+      "image": "https://i.imgur.com/28RZ9DC.png",
+      "release": "20 September 2002",
+      "company": "Tor Project",
+      "source": "open"
+    },
+    {
+      "name": "Android System WebViw",
+      "image": "https://i.imgur.com/C51rv0G.png",
+      "release": "N/A",
+      "company": "Google",
+      "source": "closed"
+    },
+    {
+      "name": "Opera GX",
+      "image": "https://i.imgur.com/oIlaz33.png",
+      "release": "June 11, 2019",
+      "company": "Opera",
+      "source": "closed"
+    },
+    {
+      "name": "Opera",
+      "image": "https://i.imgur.com/GnpwXJP.png",
+      "release": "April 10, 1995",
+      "company": "Opera",
+      "source": "closed"
+    },
+    {
+      "name": "Vivaldi",
+      "image": "https://i.imgur.com/0BKMgDU.png",
+      "release": "April 6, 2016",
+      "company": "Vivaldi Technologies",
+      "source": "closed"
+    },
+    {
+      "name": "Otter Browser",
+      "image": "https://i.imgur.com/IXCzaFP.png",
+      "release": "January 1, 2014",
+      "company": "Otter Browser",
+      "source": "open"
+    }
+  ]
+}
