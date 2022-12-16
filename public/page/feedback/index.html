@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Feedback - Joe's NOCN Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../../static/css/w3.css">    
+    <link rel="stylesheet" href="../../static/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="w3-center">Feedback</h1>
+    </header>
+    <div class="w3-padding-16"></div>
+
+    <center>
+      <div id="content" class="w3-container">
+        
+        <form action="post" class="w3-container" netlify>
+          <label for="name">Name</label>
+         <input name="name" class="w3-input w3-round-large" type="text">
+        <div class="w3-padding-16"></div>
+        <label for="message"></label>
+        <textarea name="message" class="w3-input w3-round-large" cols="30" rows="4" required></textarea>
+        <div class="w3-padding-16"></div>
+        <button type="submit" class="w3-button w3-green w3-center">
+            <i class="fa-solid fa-eye"></i> Submit
+          </button>
+        </form>
+        
+          <button class="w3-button w3-pink w3-padding-16">
+          <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
+        </button>
+      </div>
+    </center>
+
+    <script src="script.min.js" defer></script>
+    
+    <script>
+function removeTags(str) {
+if ((str===null) || (str===''))
+return false;
+else
+str = str.toString();
+return str.replace( /(<([^>]+)>)/ig, '');
+}
+</script>
+  </body>
+
+</html>

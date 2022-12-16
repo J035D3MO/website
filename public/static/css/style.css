@@ -6,6 +6,7 @@ header {
   color: white;
   font-size: 30px;
 }
+label {font-size: 20px;}
 h1, button {font-family: Calibri, 'Trebuchet MS', sans-serif;color: azure;}
 button {font-size: 30px;width: 700px;animation: size 2s;}
 button:hover {
@@ -16,7 +17,7 @@ a {text-decoration: none;}
 #image {height: 400px;width: 400px;}
 
 @keyframes size {
-  0% {width: 0px}
+  30% {width: 0px}
   100% {width: 100%}
 }
 

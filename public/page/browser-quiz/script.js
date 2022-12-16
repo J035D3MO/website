@@ -1,4 +1,4 @@
-  $.getJSON("../data/browsers-db.json", data => {
+  $.getJSON("../../data/browsers-db.json", data => {
     const { items } = data;
     var item, shown = [];
     $("#next").click(() => {

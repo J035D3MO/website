@@ -1,2 +1,7 @@
 [build]
   publish = "public"
+  
+[[_redirects]]
+  from = "/page"
+  to = "/"
+  status = 302
