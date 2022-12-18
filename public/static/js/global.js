@@ -5,4 +5,4 @@ $.getJSON = (url, callback) => {
   // Do something for an error here
 });
 }
-const urlParams = new URLSearchParams(location.search);
+var urlParams = new URLSearchParams(location.search);

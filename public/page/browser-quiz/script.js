@@ -1,6 +1,5 @@
   $.getJSON("../../data/browsers-db.json", data => {
-    const { items } = data;
-    var item, shown = [];
+    var { items } = data, item, shown = [];
     $("#next").click(() => {
       $("#next").html('<i class="fa-solid fa-forward"></i> Next Logo')
       item = items[Math.floor(Math.random() * items.length)];
