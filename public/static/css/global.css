@@ -1,34 +1,83 @@
-body {background: cyan;  margin: 0;}
+body {
+  background: rgb(40, 161, 176);
+  background: linear-gradient(90deg, rgba(40, 161, 176, 1) 0%, rgba(29, 185, 185, 1) 25%, rgba(110, 221, 222, 1) 40%, rgba(24, 208, 211, 1) 50%, rgba(110, 221, 222, 1) 60%, rgba(29, 185, 185, 1) 75%, rgba(40, 161, 176, 1) 100%);
+  margin: 0;
+}
+
 header {
   padding: 2px;
   text-align: center;
-  background: blueviolet;
+    background: rgb(35,34,201);
+background: linear-gradient(0deg, rgba(35,34,201,1) 0%, rgba(128,64,212,1) 20%, rgba(93,65,169,1) 50%, rgba(128,64,212,1) 80%, rgba(35,34,201,1) 100%); 
   color: white;
 }
-label {font-size: 20px;}
-h1, button {font-family: Calibri, 'Trebuchet MS', sans-serif;color: azure;}
-button {font-size: 30px;width: 700px;animation: size 2s;}
-button:hover {
-   rotate: 1.5deg;
-   padding: 16px 16px;
+
+label {
+  font-size: 20px;
 }
-a {text-decoration: none;}
-#image {height: 400px;width: 400px;}
+a i {float: left ;}
+
+h1,
+button {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  color: azure;
+}
+
+button {
+  font-size: 30px;
+  width: 700px;
+  animation: size 2s;
+}
+
+button:hover {
+  rotate: 1.5deg;
+  padding: 16px 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#image {
+  height: 400px;
+  width: 400px;
+}
 
 @keyframes size {
-  0% {width: 0px}
-  100% {width: 100%}
+  0% {
+    width: 0px
+  }
+
+  100% {
+    width: 100%
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .w3-padding-16 {
     padding: 8px 8px;
   }
-  #image {height: 300px;width: 300px;}
-  h1 {font-size: 30px;}
-  h3 {font-size: 20px;}
-  button {font-size: 25px;width: 300px;margin-bottom: 10px;}
+
+  #image {
+    height: 300px;
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
   button:hover {
-   padding: 10px 10px;
-}
+    padding: 10px 10px;
+  }
 }
