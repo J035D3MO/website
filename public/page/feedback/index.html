@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="../../static/css/w3.css">    
     <link rel="stylesheet" href="../../static/css/global.css">
-    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
   </head>
 
   <body>
@@ -23,14 +22,20 @@
     <center>
       <div id="content" class="w3-container">
         
+        <p id="intro">Want to say something about my page?</p>
+        
         <form action="post" class="w3-container" netlify>
+          
           <label for="name">Name</label>
          <input name="name" class="w3-input w3-round-large" type="text">
         <div class="w3-padding-16"></div>
+
+        <label for="message">Message</label>        
         <label for="message"></label>
         <textarea name="message" class="w3-input w3-round-large" cols="30" rows="4" required></textarea>
         <div class="w3-padding-16"></div>
-        <button type="submit" class="w3-button w3-green w3-center">
+        
+        <button type="submit" class="w3-button w3-green">
             <i class="fa-solid fa-eye"></i> Submit
           </button>
         </form>
@@ -38,6 +43,27 @@
           <button class="w3-button w3-pink w3-padding-16">
           <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
         </button>
+        
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+          this.page.url = location.href;  
+          this.page.identifier = "Feedback";
+          };
+          (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement('script');
+            s.src = 'https://joesdemo.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>
+Please enable JavaScript to view the 
+<a href="https://disqus.com/?ref_noscript" rel="nofollow">
+comments powered by Disqus.
+</a>
+</noscript>
       </div>
     </center>
     

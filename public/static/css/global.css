@@ -1,23 +1,23 @@
 body {background: cyan;  margin: 0;}
 header {
-  padding: 3px;
+  padding: 2px;
   text-align: center;
   background: blueviolet;
   color: white;
-  font-size: 25px;
+  font-size: 24px;
 }
 label {font-size: 20px;}
 h1, button {font-family: Calibri, 'Trebuchet MS', sans-serif;color: azure;}
 button {font-size: 30px;width: 700px;animation: size 2s;}
 button:hover {
-   rotate: 2deg;
-   padding: 18px 18px;
+   rotate: 1.5deg;
+   padding: 16px 16px;
 }
 a {text-decoration: none;}
 #image {height: 400px;width: 400px;}
 
 @keyframes size {
-  30% {width: 0px}
+  0% {width: 0px}
   100% {width: 100%}
 }
 
@@ -27,7 +27,7 @@ a {text-decoration: none;}
   }
   #image {height: 300px;width: 300px;}
   h1 {font-size: 30px;}
-  h3 {font-size: 20px;}
+  h3, header {font-size: 20px;}
   button {font-size: 25px;width: 300px;margin-bottom: 10px;}
   button:hover {
    padding: 10px 10px;

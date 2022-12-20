@@ -1,1 +1,1 @@
-var urlParams = new URLSearchParams(location.search);
+const urlParams = new URLSearchParams(location.search);
