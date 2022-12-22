@@ -3,5 +3,5 @@ dblist.map(db => {
     var fL = db.charAt(0).toUpperCase();
     var rL = db.substring(1)
 
-    $("#content").prepend(`<button class="w3-button w3-orange"><a href="${isMobile ? `../../pages/json-viewer?file=${db}` : `../../data/${db}-db.json`}"><i class="fa-solid fa-link"></i>${fL+rL}</a></button>`);
+    $("#content").prepend(`<button class="w3-button w3-orange"><a href="${`../../pages/json-viewer?file=${db}-db.json`}"><i class="fa-solid fa-link"></i>${fL+rL}</a></button>`);
 });
