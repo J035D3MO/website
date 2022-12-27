@@ -118,6 +118,13 @@
       "release": "October 2022",
       "company": "Blisk",
       "source": "closed"
+    },
+    {
+      "name": "Silk",
+      "image": "https://i.imgur.com/ea5gWM3.jpg",
+      "release": "November 15, 2011",
+      "company": "Amazon",
+      "source": "closed"
     }
   ]
 }

@@ -43,9 +43,13 @@ a {
   width: 400px;
 }
 
+.hidden {
+  display: none;
+}
+
 @keyframes size {
   0% {
-    width: 0px
+    width: 50%;
   }
 
   100% {
