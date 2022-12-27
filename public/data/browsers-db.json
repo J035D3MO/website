@@ -104,6 +104,20 @@
       "release": "January 1, 2014",
       "company": "Otter Browser",
       "source": "open"
+    },
+    {
+      "name": "Samsung Internet",
+      "image": "https://i.imgur.com/yuMUb35.png",
+      "release": "2015",
+      "company": "Samsung",
+      "source": "closed"
+    },
+    {
+      "name": "Blisk",
+      "image": "https://i.imgur.com/XbQVmvE.png",
+      "release": "October 2022",
+      "company": "Blisk",
+      "source": "closed"
     }
   ]
 }
