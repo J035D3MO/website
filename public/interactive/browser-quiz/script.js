@@ -1,29 +1,27 @@
 let shuffleArray = (arr) => {
-      arr.sort(() => Math.random() - 0.5);
-    }
- 
-  glob.fetchJSON("../../data/browsers-db.json", data => {
+  arr.sort(() => Math.random() - 0.5);
+}
 
-    var { items } = data, item, pos = -1;
-    items = shuffleArray(items);
+g.fetchJSON("../../data/browsers-db.json", data => {
 
-    $("#next").click(() => {
-      $("#next").html('<i class="fa-solid fa-forward"></i> Next Logo');
-      pos += 1;
-      item = items[pos];
+  let { items } = data, item, pos = -1, img = $("#image");
+  shuffleArray(items);
 
-      $("#image").addClass("w3-animate-top");
-      $("#image").prop("src", item.image);
-      $("#anwser").html('<i class="fa-solid fa-face-thinking"></i> Guess now!');
-      $("#image").removeClass("w3-animate-top");      
+  $("#next").on("click", () => {
+    $("#next").html('<i class="fa-solid fa-forward"></i> Next Logo');
+    pos += 1;
+    item = items[pos];
 
-    });
-    $("#show").click(() => {
-      $("#anwser").html(`<i class="fa-solid fa-circle-info"></i> It is ${item.name} made by ${item.company}. Released ${item.release}`);
-    });
+    $("#image").prop("src", item.image);
+    $("#anwser").html('<i class="fa-solid fa-face-thinking"></i> Guess now!');
+
   });
-
-  $(document).on("keyup", evt => {
-    evt.key == " " ? $("#next").click() : ""
-    evt.key == "Enter" ? $("#show").click() : ""
+  $("#show").on("click", () => {
+    $("#anwser").html(`<i class="fa-solid fa-circle-info"></i> It is ${item.name} made by ${item.company}. Released ${item.release}`);
   });
+});
+
+$(document).on("keyup", evt => {
+  evt.key == " " ? g.trigger($("#next"), "click") : ""
+  evt.key == "Enter" ? g.trigger($("#show"), "click") : ""
+});
