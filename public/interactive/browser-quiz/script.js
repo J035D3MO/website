@@ -1,12 +1,12 @@
 $("#content").show();
- 
-  $.getJSON("../../data/browsers-db.json", data => {
-    function shuffleArray(arr) {
-      arr.sort(() => Math.random() - 0.5);
+let shuffleArray = (arr) => {
+      return arr.sort(() => Math.random() - 0.5);
     }
+ 
+  glob.fetchJSON("../../data/browsers-db.json", data => {
 
     var { items } = data, item, pos = -1;
-    shuffleArray(items);
+    items = shuffleArray(items);
 
     $("#next").click(() => {
       $("#next").html('<i class="fa-solid fa-forward"></i> Next Logo');
