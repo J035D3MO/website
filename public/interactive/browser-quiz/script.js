@@ -1,6 +1,5 @@
-$("#content").show();
 let shuffleArray = (arr) => {
-      return arr.sort(() => Math.random() - 0.5);
+      arr.sort(() => Math.random() - 0.5);
     }
  
   glob.fetchJSON("../../data/browsers-db.json", data => {
