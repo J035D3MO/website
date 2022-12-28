@@ -1,7 +1,13 @@
 [build]
   publish = "public"
+  functions = "functions"
   
 [[_redirects]]
   from = "/page"
   to = "/"
+  status = 302
+  
+[[_redirects]]
+  from = "/.netlify/functions/*"
+  to = "/ext/:split"
   status = 302
