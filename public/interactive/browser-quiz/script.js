@@ -1,5 +1,6 @@
 g.fetchJSON("../../data/browsers-db.json", data => {
-  
+  $("#loading").hide();
+  $("#playable").show();
 
   let { items } = data, item, pos = -1;
   items = g.shuffleArray(items);

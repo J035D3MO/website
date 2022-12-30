@@ -1,3 +1,3 @@
-$.getJSON(`../../data/${urlParams.get("file")}.json`, data => {
-  console.info(data);
+g.fetchJSON(`../../data/${urlParams.get("file")}.json`, data => {
+  $("#dataview").val(data);
 });

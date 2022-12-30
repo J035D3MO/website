@@ -45,6 +45,10 @@ a {
   width: 400px;
 }
 
+.hidden {
+  display: none;
+}
+
 @keyframes size {
   0% {
     width: 50%;
