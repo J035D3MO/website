@@ -2,7 +2,7 @@
   publish = "public"
   functions = "functions"
   
-[[_redirects]]
+[[redirects]]
   from = "/page"
   to = "/"
   status = 302
@@ -11,3 +11,10 @@
   from = "/.netlify/functions/*"
   to = "/ext/:split"
   status = 302
+  
+[build.processing]
+  skip_processing = false
+
+[build.processing.js]
+  bundle = true
+  minify = false

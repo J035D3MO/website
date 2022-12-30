@@ -8,28 +8,36 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="../../static/css/w3.css"> 
+    <link rel="stylesheet" href="../../static/css/w3.css">
     <link rel="stylesheet" href="../../static/css/global.css">
     <script src="../../static/js/cash.min.js"></script>
     <script src="../../static/js/global.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=fetch"></script>
-    <script src="script.js" defer></script>
+    <script src="./script.min.js" defer></script>
+    
+  <link rel="manifest" href="../../manifest.json">
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">    
   </head>
 
   <body>
 
     <header>
       <h1 class="w3-center">Guess the Browser Quiz</h1>
-      <p>A group game of guessing popular web browsers that people use to access the internet, it doesn't give so its up to you!</p>
+      <p>A group game of guessing popular web browsers that people use to access the internet, it doesn't give so its up
+        to you!</p>
     </header>
     <div class="w3-padding-16"></div>
 
-    <noscript>
-       <p><i class="fa fa-spinner w3-spin" style="font-size:300px"></i></p>
-    </noscript>
+    <div id="content" class="w3-container theme-interactive">
+      
+          <div id="loading">
 
-      <div id="content" class="w3-container theme-interactive">
-            <center>
+      <p><i class="fa fa-spinner w3-spin" style="font-size:300px"></i></p>
+
+    </div>
+    
+    <div id="playable">
+      <center>
         <img src="img/start.jpg" alt="" id="image">
         <div class="w3-padding-16"></div>
         <h3 id="anwser">Press Start!</h3>
@@ -41,16 +49,19 @@
           <button id="show" class="w3-button w3-green w3-center">
             <i class="fa-solid fa-eye"></i> Show Anwser
           </button>
+          <br/>
           <button class="w3-button w3-pink w3-padding-16">
-          <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
-        </button>          
+            <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
+          </button>
         </div>
         <div class="w3-padding-16"></div>
-        <h3><i class="fa-solid fa-circle-info"></i> Press Next and take a guess of the logo, then Show Answer to so if your correct, play with yourself or as a group.</h3>
+        <h3><i class="fa-solid fa-circle-info"></i> Press Next and take a guess of the logo, then Show Answer to so if
+          your correct, play with yourself or as a group.</h3>
         <h3><i class="fa-solid fa-circle-info"></i> Press Space for Next and Enter for Show Anwser</h3>
-            </center>
+      </center>
       </div>
-    
+    </div>
+
   </body>
 
 </html>

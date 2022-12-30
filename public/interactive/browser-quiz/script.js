@@ -1,11 +1,8 @@
-let shuffleArray = (arr) => {
-  arr.sort(() => Math.random() - 0.5);
-}
-
 g.fetchJSON("../../data/browsers-db.json", data => {
+  
 
-  let { items } = data, item, pos = -1, img = $("#image");
-  shuffleArray(items);
+  let { items } = data, item, pos = -1;
+  items = g.shuffleArray(items);
 
   $("#next").on("click", () => {
     $("#next").html('<i class="fa-solid fa-forward"></i> Next Logo');

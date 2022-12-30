@@ -25,7 +25,9 @@ button {
 
 button {
   font-size: 30px;
-  width: 700px;
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 10px;
   animation: size 2s;
 }
 
@@ -41,10 +43,6 @@ a {
 #image {
   height: 400px;
   width: 400px;
-}
-
-.hidden {
-  display: none;
 }
 
 @keyframes size {
@@ -77,8 +75,6 @@ a {
 
   button {
     font-size: 25px;
-    width: 300px;
-    margin-bottom: 10px;
   }
 
   button:hover {
