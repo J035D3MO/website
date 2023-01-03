@@ -1,6 +1,6 @@
 body {
   background: rgb(40, 161, 176);
-  background: linear-gradient(90deg, rgba(40, 161, 176, 1) 0%, rgba(29, 185, 185, 1) 25%, rgba(110, 221, 222, 1) 40%, rgba(24, 208, 211, 1) 50%, rgba(110, 221, 222, 1) 60%, rgba(29, 185, 185, 1) 75%, rgba(40, 161, 176, 1) 100%);
+  background: linear-gradient(180deg, rgba(40, 161, 176, 1) 0%, rgba(29, 185, 185, 1) 30%, rgba(110, 221, 222, 1) 40%, rgba(24, 208, 211, 1) 50%, rgba(110, 221, 222, 1) 60%, rgba(29, 185, 185, 1) 70%, rgba(40, 161, 176, 1) 100%);
   margin: 0;
 }
 
@@ -45,6 +45,10 @@ a {
   width: 400px;
 }
 
+#content {
+  padding: 0 50px;
+}
+
 .hidden {
   display: none;
 }
@@ -68,6 +72,10 @@ a {
     height: 300px;
     width: 300px;
   }
+  
+  #content {
+  padding: 0 0;
+}
 
   h1 {
     font-size: 30px;

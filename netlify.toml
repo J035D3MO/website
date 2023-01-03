@@ -5,3 +5,13 @@
   from = "/.netlify/functions/*"
   to = "/ext/:split"
   status = 302
+  
+[[redirects]]
+  from = "/i/*"
+  to = "/interactive/:split"
+  status = 301
+  
+[[redirects]]
+  from = "/p/*"
+  to = "/page/:split"
+  status = 301

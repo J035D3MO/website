@@ -12,6 +12,8 @@ g.fetchJSON("../../data/browsers-db.json", data => {
 
     $("#image").prop("src", item.image);
     $("#anwser").html('<i class="fa-solid fa-face-thinking"></i> Guess now!');
+    
+    $("#next_image").prop("href", items[pos + 1].image);
 
   });
   $("#show").on("click", () => {
