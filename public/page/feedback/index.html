@@ -8,11 +8,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="../../static/css/w3.css">    
+    <link rel="stylesheet" href="../../static/css/w3.css">
     <link rel="stylesheet" href="../../static/css/global.min.css">
-    
-  <link rel="manifest" href="../../manifest.json">
-  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">    
+
+    <link rel="manifest" href="../../manifest.json">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
   </head>
 
   <body>
@@ -23,41 +23,39 @@
     </header>
     <div class="w3-padding-16"></div>
 
-    <center>
-      <div id="content" class="w3-container">
-        
-        <form action="post" class="w3-container" netlify>
-          
-          <label for="name">Your Name</label>
-         <input name="name" class="w3-input w3-round-large" type="text">
+    <div id="content" class="w3-container w3-center">
+
+      <form action="post" class="w3-container" netlify>
+
+        <label for="name">Your Name</label>
+        <input name="name" class="w3-input w3-round-large" type="text">
         <div class="w3-padding-16"></div>
 
-        <label for="message">Your Message</label>        
+        <label for="message">Your Message</label>
         <label for="message"></label>
         <textarea name="message" class="w3-input w3-round-large" cols="30" rows="4" required></textarea>
         <div class="w3-padding-16"></div>
-        
+
         <button type="submit" class="w3-button w3-green">
-            <i class="fa-solid fa-eye"></i> Submit
-          </button>
-        </form>
-        
-          <button class="w3-button w3-pink w3-padding-16">
-          <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
+          <i class="fa-solid fa-eye"></i> Submit
         </button>
-        
-      </div>
-    </center>
-    
+      </form>
+
+      <button class="w3-button w3-pink w3-padding-16">
+        <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
+      </button>
+
+    </div>
+
     <script>
-function removeTags(str) {
-if ((str===null) || (str===''))
-return false;
-else
-str = str.toString();
-return str.replace( /(<([^>]+)>)/ig, '');
-}
-</script>
+      function removeTags(str) {
+        if ((str === null) || (str === ''))
+          return false;
+        else
+          str = str.toString();
+        return str.replace(/(<([^>]+)>)/ig, '');
+      }
+    </script>
   </body>
 
 </html>

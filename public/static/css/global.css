@@ -33,7 +33,7 @@ button {
 
 button:hover {
   rotate: 1.5deg;
-  padding: 16px 16px;
+  padding: 12px 12px;
 }
 
 a {
@@ -41,12 +41,8 @@ a {
 }
 
 #image {
-  height: 400px;
-  width: 400px;
-}
-
-#content {
-  padding: 0 50px;
+  height: 370px;
+  width: 37S0px;
 }
 
 .hidden {
@@ -63,7 +59,11 @@ a {
   }
 }
 
-@media only screen and (max-width: 600px) {
+#content {
+    padding: 0 200px;
+  }
+
+@media only screen and (max-width: 500px) {
   .w3-padding-16 {
     padding: 8px 8px;
   }
@@ -72,10 +72,10 @@ a {
     height: 300px;
     width: 300px;
   }
-  
+
   #content {
-  padding: 0 0;
-}
+    padding: 0;
+  }
 
   h1 {
     font-size: 30px;
@@ -90,6 +90,6 @@ a {
   }
 
   button:hover {
-    padding: 10px 10px;
+    padding: 9px 9px;
   }
 }

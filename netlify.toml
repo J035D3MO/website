@@ -2,16 +2,11 @@
   publish = "public"
   
 [[redirects]]
-  from = "/.netlify/functions/*"
-  to = "/ext/:split"
-  status = 302
-  
-[[redirects]]
   from = "/i/*"
-  to = "/interactive/:split"
+  to = "/interactive/:splat"
   status = 301
   
 [[redirects]]
   from = "/p/*"
-  to = "/page/:split"
+  to = "/page/:splat"
   status = 301
