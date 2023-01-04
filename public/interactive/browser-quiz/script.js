@@ -4,6 +4,7 @@ g.fetchJSON("../../data/browsers-db.json", data => {
 
   let { items } = data, item, pos = -1;
   items = g.shuffleArray(items);
+  $("#next_image").prop("href", items[0].image);
 
   $("#next").on("click", () => {
     $("#next").html('<i class="fa-solid fa-forward"></i> Next Logo');
