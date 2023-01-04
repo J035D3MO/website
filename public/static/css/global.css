@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-header {
+header, .header {
   padding: 2px;
   text-align: center;
     background: rgb(35,34,201);
@@ -62,6 +62,11 @@ a {
 #content {
     padding: 0 200px;
   }
+  
+#cusdis_thread {
+   background: rgb(33,199,134);
+background: linear-gradient(180deg, rgba(33,199,134,0.17022655696930622) 0%, rgba(131,237,201,1) 20%, rgba(32,214,40,1) 40%, rgba(32,214,40,1) 60%, rgba(131,237,201,1) 80%, rgba(33,199,134,0.6330097284903418) 100%); 
+}
 
 @media only screen and (max-width: 500px) {
   .w3-padding-16 {
