@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Browser Quiz - Joe's NOCN Demo</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="../../static/css/w3.css">
-    <link rel="stylesheet" href="../../static/css/global.css">
-    <script src="../../static/js/cash.min.js"></script>
-    <script src="../../static/js/global.min.js"></script>
-    <script src="../../static/js/comments.min.js" defer></script>    
-    <script src="script.min.js" defer></script>
-    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Browser Quiz - Joe's NOCN Demo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="../../static/css/w3.css">
+  <link rel="stylesheet" href="../../static/css/global.css">
+  <script src="../../static/js/cash.min.js"></script>
+  <script src="../../static/js/global.min.js"></script>
+  <script src="../../static/js/comments.min.js" defer></script>
+  <script src="script.min.js" defer></script>
+
   <link rel="manifest" href="../../manifest.json">
-  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">    
-  </head>
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <h1 class="w3-center">Guess the Browser Quiz</h1>
-      <p>A group game of guessing popular web browsers that people use to access the internet, it doesn't give so its up
-        to you!</p>
-    </header>
-    <div class="w3-padding-16"></div>
+  <header>
+    <h1 class="w3-center">Guess the Browser Quiz</h1>
+    <p>A group game of guessing popular web browsers that people use to access the internet, it doesn't give so its up
+      to you!</p>
+  </header>
+  <div class="w3-padding-16"></div>
 
-    <div id="content" class="w3-container w3-center theme-interactive">
-      
-          <div id="loading">
+  <div id="content" class="w3-container w3-center theme-interactive">
 
+    <div id="loading">
       <p><i class="fa fa-spinner w3-spin" style="font-size:300px"></i></p>
+    </div>
+
+    <div id="playable" class="hidden">
+      <img src="img/start.jpg" alt="browser logo" id="image">
+      <link rel="preload" as="image" id="next_image">
+      <div class="w3-padding-16"></div>
+
+      <h3 id="anwser">Press Start!</h3>
+      <div class="w3-padding-16"></div>
+
+      <div id="buttons">
+        <button id="next" class="w3-button w3-blue w3-center">
+          <i class="fa-solid fa-play"></i> Start Game
+        </button>
+        <button id="show" class="w3-button w3-green w3-center">
+          <i class="fa-solid fa-eye"></i> Show Anwser
+        </button>
+        <br />
+        <button class="w3-button w3-pink w3-padding-16">
+          <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
+        </button>
+      </div>
+      <div class="w3-padding-16"></div>
+
+      <div class="bg-green">
+        <h2>How to Play</h2>
+      </div>
+
+      <h3><i class="fa-solid fa-circle-info"></i> Press Next and take a guess of the logo, then Show Answer to so if
+        your correct, play with yourself or as a group.</h3>
+      <h3><i class="fa-solid fa-circle-info"></i> Press Space for Next and Enter for Show Anwser</h3>
 
     </div>
     
-    <div id="playable" class="hidden">
-        <img src="img/start.jpg" alt="browser logo" id="image">
-        <link rel="preload" as="image" id="next_image">
-        <div class="w3-padding-16"></div>
-        
-        <h3 id="anwser">Press Start!</h3>
-        <div class="w3-padding-16"></div>
-        
-        <div id="buttons">
-          <button id="next" class="w3-button w3-blue w3-center">
-            <i class="fa-solid fa-play"></i> Start Game
-          </button>
-          <button id="show" class="w3-button w3-green w3-center">
-            <i class="fa-solid fa-eye"></i> Show Anwser
-          </button>
-          <br/>
-          <button class="w3-button w3-pink w3-padding-16">        
-            <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
-          </button>
-        </div>
-        <div class="w3-padding-16"></div>
-        
-        <h3><i class="fa-solid fa-circle-info"></i> Press Next and take a guess of the logo, then Show Answer to so if
-          your correct, play with yourself or as a group.</h3>
-        <h3><i class="fa-solid fa-circle-info"></i> Press Space for Next and Enter for Show Anwser</h3>
-      
-      </div>
-            
-    </div>
+        <footer>
+          <h3 class="w3-center">
+            <a href="/privacy">Privacy</a>
+          </h3>
+        </footer>
 
-  </body>
+  </div>
+
+</body>
 
 </html>

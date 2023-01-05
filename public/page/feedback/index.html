@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Feedback - Joe's NOCN Demo</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="../../static/css/w3.css">
-    <link rel="stylesheet" href="../../static/css/global.min.css">
-    
-    <script src="../../static/js/comments.min.js" defer></script>    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Feedback - Joe's NOCN Demo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="../../static/css/w3.css">
+  <link rel="stylesheet" href="../../static/css/global.min.css">
 
-    <link rel="manifest" href="../../manifest.json">
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
-  </head>
+  <script src="../../static/js/cash.min.js"></script>
+    <script src="../../static/js/global.min.js"></script>
+  <script src="../../static/js/comments.min.js" defer></script>
 
-  <body>
+  <link rel="manifest" href="../../manifest.json">
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
 
-    <header>
-      <h1 class="w3-center">Feedback</h1>
-      <p>Want to share your thoughts about my website or one of the featured projects? Then send a message or comment below!</p>
-    </header>
-    <div class="w3-padding-16"></div>
+<body>
 
-    <div id="content" class="w3-container w3-center">
+  <header>
+    <h1 class="w3-center">Feedback</h1>
+    <p>Want to share your thoughts about my website or one of the featured projects? Then send a message or comment below!</p>
+  </header>
+  <div class="w3-padding-16"></div>
 
-      <form action="post" class="w3-container" netlify>
+  <div id="content" class="w3-container w3-center">
 
-        <label for="name">Your Name</label>
-        <input name="name" class="w3-input w3-round-large" type="text">
-        <div class="w3-padding-16"></div>
+    <form action="post" class="w3-container" netlify>
 
-        <label for="message">Your Message</label>
-        <label for="message"></label>
-        <textarea name="message" class="w3-input w3-round-large" cols="30" rows="4" required></textarea>
-        <div class="w3-padding-16"></div>
+      <label for="name">Your Name</label>
+      <input name="name" class="w3-input w3-round-large" type="text">
+      <div class="w3-padding-16"></div>
 
-        <button type="submit" class="w3-button w3-green">
-          <i class="fa-solid fa-eye"></i> Submit
-        </button>
-      </form>
+      <label for="message">Your Message</label>
+      <label for="message"></label>
+      <textarea name="message" class="w3-input w3-round-large" cols="30" rows="4" required></textarea>
+      <div class="w3-padding-16"></div>
 
-      <button class="w3-button w3-pink w3-padding-16">
-        <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
+      <button type="submit" class="w3-button w3-green">
+        <i class="fa-solid fa-eye"></i> Submit
       </button>
+    </form>
 
-    </div>
+    <button class="w3-button w3-pink w3-padding-16">
+      <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
+    </button>
 
-    <script>
-      function removeTags(str) {
-        if ((str === null) || (str === ''))
-          return false;
-        else
-          str = str.toString();
-        return str.replace(/(<([^>]+)>)/ig, '');
-      }
-    </script>
-  </body>
+    <footer>
+      <h3 class="w3-center">
+        <a href="/privacy">Privacy</a>
+        </h3>
+    </footer>
+
+  </div>
+
+  <script>
+    function removeTags(str) {
+      if ((str === null) || (str === ''))
+        return false;
+      else
+        str = str.toString();
+      return str.replace(/(<([^>]+)>)/ig, '');
+    }
+  </script>
+</body>
 
 </html>

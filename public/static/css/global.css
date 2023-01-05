@@ -4,12 +4,25 @@ body {
   margin: 0;
 }
 
-header, .header {
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+header, footer, .bg-purple {
   padding: 2px;
   text-align: center;
     background: rgb(35,34,201);
 background: linear-gradient(0deg, rgba(35,34,201,1) 0%, rgba(128,64,212,1) 20%, rgba(93,65,169,1) 50%, rgba(128,64,212,1) 80%, rgba(35,34,201,1) 100%); 
   color: white;
+}
+
+.bg-green {
+   background: rgb(33,199,134);
+background: linear-gradient(180deg, rgba(33,199,134,0.17022655696930622) 0%, rgba(131,237,201,1) 20%, rgba(32,214,40,1) 40%, rgba(32,214,40,1) 60%, rgba(131,237,201,1) 80%, rgba(33,199,134,0.6330097284903418) 100%); 
 }
 
 label {
@@ -18,6 +31,7 @@ label {
 a i {float: left ;}
 
 h1,
+h2,
 button {
   font-family: Calibri, 'Trebuchet MS', sans-serif;
   color: azure;
@@ -62,11 +76,7 @@ a {
 #content {
     padding: 0 200px;
   }
-  
-#cusdis_thread {
-   background: rgb(33,199,134);
-background: linear-gradient(180deg, rgba(33,199,134,0.17022655696930622) 0%, rgba(131,237,201,1) 20%, rgba(32,214,40,1) 40%, rgba(32,214,40,1) 60%, rgba(131,237,201,1) 80%, rgba(33,199,134,0.6330097284903418) 100%); 
-}
+
 
 @media only screen and (max-width: 500px) {
   .w3-padding-16 {
