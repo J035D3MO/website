@@ -5,30 +5,38 @@ body {
 }
 
 footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
-header, footer, .bg-purple {
+header,
+footer,
+.bg-purple {
   padding: 2px;
   text-align: center;
-    background: rgb(35,34,201);
-background: linear-gradient(0deg, rgba(35,34,201,1) 0%, rgba(128,64,212,1) 20%, rgba(93,65,169,1) 50%, rgba(128,64,212,1) 80%, rgba(35,34,201,1) 100%); 
+  background: rgb(35, 34, 201);
+  background: linear-gradient(0deg, #2322c9 0%, #8040d4 20%, #5d41a9 50%, #8040d4 80%, #2322c9 100%);
   color: white;
 }
 
 .bg-green {
-   background: rgb(33,199,134);
-background: linear-gradient(180deg, rgba(33,199,134,0.17022655696930622) 0%, rgba(131,237,201,1) 20%, rgba(32,214,40,1) 40%, rgba(32,214,40,1) 60%, rgba(131,237,201,1) 80%, rgba(33,199,134,0.6330097284903418) 100%); 
+  background: rgb(33, 199, 134);
+  background: linear-gradient(180deg, #21c7862b 0%, #83edc9 20%, #6ad76f 40%, #6ad76f 60%, #83edc9 80%, #21c786a1 100%);
+}
+.bg-green h2, .bg-green p {
+  color: white;
 }
 
 label {
   font-size: 20px;
 }
-a i {float: left ;}
+
+a i {
+  float: left;
+}
 
 h1,
 h2,
@@ -74,8 +82,8 @@ a {
 }
 
 #content {
-    padding: 0 200px;
-  }
+  padding: 0 200px;
+}
 
 
 @media only screen and (max-width: 500px) {
