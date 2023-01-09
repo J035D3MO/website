@@ -1,3 +1,3 @@
-g.fetchJSON(`../../data/${urlParams.get("file")}.json`, data => {
+g.fetchJSON(`../../data/${g.urlParams.get("file")}.json`, data => {
   $("#dataview").val(data);
 });
