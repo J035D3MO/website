@@ -14,11 +14,15 @@ footer {
 header,
 footer,
 .bg-purple {
-  padding: 0.5px;
+  padding: 2px;
   text-align: center;
   background: rgb(35, 34, 201);
   background: linear-gradient(0deg, #2322c9 0%, #8040d4 20%, #5d41a9 50%, #8040d4 80%, #2322c9 100%);
   color: white;
+}
+
+footer {
+  padding: 0;
 }
 
 .bg-green {
@@ -46,7 +50,7 @@ button {
 
 button {
   font-size: 30px;
-  width: 80%;
+  width: 90%;
   max-width: 500px;
   margin-bottom: 10px;
   animation: size 2s;
@@ -63,11 +67,17 @@ a {
 
 #content {
   padding: 0 200px;
+  min-height: 100%;
 }
 
 #image {
   height: 370px;
   width: auto;
+}
+
+#editor {
+  width: 90%;
+  max-width: 500px;
 }
 
 .hidden {
