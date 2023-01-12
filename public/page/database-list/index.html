@@ -30,10 +30,16 @@
       <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
     </button>
     
+  </div>
+
+     <footer>
+      <p class="w3-center">       <script>document.write(new Date().getFullYear())</script> Joes Demo | <a href="/privacy">Privacy</a>
+      </p>
+    </footer>
+    
     <script>
       let dblist=["browsers","companys"];dblist.map(db=>{let fL=db.charAt(0).toUpperCase(),rL=db.substring(1);$("#content").prepend(`<button class="w3-button w3-orange"><a href="../../page/json-viewer/?file=${db}-db"><i class="fa-solid fa-link"></i>${fL+rL}</a></button>`)});
     </script>
-  </div>
 
 </body>
 
