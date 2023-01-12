@@ -29,12 +29,6 @@
     <button class="w3-button w3-pink w3-padding-16">
       <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
     </button>
-
-    <footer>
-      <h3 class="w3-center">
-        <a href="/privacy">Privacy</a>
-        </h3>
-    </footer>
     
     <script>
       let dblist=["browsers","companys"];dblist.map(db=>{let fL=db.charAt(0).toUpperCase(),rL=db.substring(1);$("#content").prepend(`<button class="w3-button w3-orange"><a href="../../page/json-viewer/?file=${db}-db"><i class="fa-solid fa-link"></i>${fL+rL}</a></button>`)});
