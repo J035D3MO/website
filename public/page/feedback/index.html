@@ -58,13 +58,9 @@
   </div>
 
   <script>
-    function removeTags(str) {
-      if ((str === null) || (str === ''))
-        return false;
-      else
-        str = str.toString();
-      return str.replace(/(<([^>]+)>)/ig, '');
-    }
+  $(".w3-input").on("change", function(e){
+    e.target.value = e.target.value.replace(/[^a-zA-Z\d.]/ig, "")
+  });
   </script>
   <style>
     textarea {
