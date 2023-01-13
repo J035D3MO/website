@@ -8,6 +8,20 @@
       "source": "open"
     },
     {
+      "name": "Midori",
+      "image": "https://i.imgur.com/6FDr1Mu.png",
+      "release": "December 16, 2007",
+      "company": "Midori",
+      "source": "open"
+    },
+    {
+      "name": "DuckDuckGo",
+      "image": "https://i.imgur.com/6FDr1Mu.png",
+      "release": "April 2022",
+      "company": "DuckDuckGo",
+      "source": "closed"
+    },
+    {
       "name": "Chrome",
       "image": "https://i.imgur.com/NBqn30o.png",
       "release": "September 2, 2008",
@@ -107,7 +121,7 @@
     },
     {
       "name": "Samsung Internet",
-      "image": "https://i.imgur.com/yuMUb35.png",
+      "image": "https://i.imgur.com/wnK8RU8.png",
       "release": "2015",
       "company": "Samsung",
       "source": "closed"
