@@ -139,6 +139,13 @@
       "release": "November 15, 2011",
       "company": "Amazon",
       "source": "closed"
+    },
+    {
+      "name": "SeaMonkey",
+      "image": "https://i.imgur.com/vb6TtqD.png",
+      "release": "January 30, 2006",
+      "company": "SeaMonkey Council",
+      "source": "open"
     }
   ]
 }
