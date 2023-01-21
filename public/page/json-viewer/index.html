@@ -13,7 +13,6 @@
   <script src="../../static/js/cash.min.js"></script>
   <script src="../../static/js/global.min.js"></script>
   <script src="https://embed.spck.io/embed/spck-embed.min.js" defer></script>
-  <script src="script.js" defer></script>
 
   <link rel="manifest" href="../../manifest.json">
   <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
@@ -43,6 +42,9 @@
       <p class="w3-center">       <script>document.write(new Date().getFullYear())</script> Joes Demo | <a href="/privacy">Privacy</a>
       </p>
     </footer>
+    <script>
+      let editor=new SpckEditor('#editor'),file=g.urlParams.get("file");$(".bg-green").html(`<h2>You viewing preview of "${ file }"</h2>`);g.fetch(`../../data/${ file }.json`,text=>{editor.connect().then(()=>{return editor.send({project:'Simple Project',open:`${ file }.json`,files:[{path:`${ file }.json`,text:text}]})}).catch(()=>console.log('failure'))});
+    </script>
 
 </body>
 
