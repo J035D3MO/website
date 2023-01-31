@@ -25,27 +25,27 @@
     <h1 class="w3-center">Feedback</h1>
     <p>Want to share your thoughts about my website or one of the featured projects? Then send a message or comment below!</p>
   </header>
-  <div class="w3-padding-16"></div>
+  <div class="padding"></div>
 
   <div id="content" class="w3-container w3-center">
 
     <form action="post" class="w3-container" name="Feedback"  netlify>
 
       <label for="name">Your Name</label>
-      <input name="name" class="w3-input w3-round-large" type="name">
-      <div class="w3-padding-16"></div>
+      <input name="name" class="input-text w3-round-large" type="name">
+      <div class="padding"></div>
 
       <label for="message">Your Message</label>
       <label for="message"></label>
-      <textarea name="message" class="w3-input w3-round-large" cols="30" rows="3" required></textarea>
-      <div class="w3-padding-16"></div>
+      <textarea name="message" class="input-text w3-round-large" cols="30" rows="3" required></textarea>
+      <div class="padding"></div>
 
-      <button type="submit" class="w3-button w3-green">
+      <button type="submit" class="w3-btn w3-green">
         <i class="fa-solid fa-eye"></i> Send Feedback
       </button>
     </form>
 
-    <button class="w3-button w3-pink w3-padding-16">
+    <button class="w3-btn w3-pink padding">
       <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
     </button>
 
@@ -57,13 +57,16 @@
     </footer>
 
   <script>
-  $(".w3-input").on("change", function(e){
+  $(".input-text").on("change", function(e){
     e.target.value = e.target.value.replace(/[^a-zA-Z\d.]/ig, "")
   });
   </script>
   <style>
     textarea {
       resize: none;
+    }
+    .input-text {
+      padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%
     }
   </style>
 </body>

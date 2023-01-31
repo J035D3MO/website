@@ -2,7 +2,7 @@
   "items": [
     {
       "name": "Firefox",
-      "image": "https://i.imgur.com/6FDr1Mu.png",
+      "image": "https://i.imgur.com/DjNiwAR.png",
       "release": "November 9, 2004",
       "company": "Mozilla",
       "source": "open"
@@ -10,132 +10,132 @@
     {
       "name": "Midori",
       "image": "https://i.imgur.com/kNj7Fzk.png",
-      "release": "December 16, 2007",
+      "release": "December 16, 2007",
       "company": "Midori",
       "source": "open"
     },
     {
       "name": "DuckDuckGo",
-      "image": "https://i.imgur.com/6FDr1Mu.png",
+      "image": "https://i.imgur.com/DzDRyys.png",
       "release": "April 2022",
       "company": "DuckDuckGo",
       "source": "closed"
     },
     {
       "name": "Chrome",
-      "image": "https://i.imgur.com/NBqn30o.png",
+      "image": "https://i.imgur.com/T0KeNbZ.png",
       "release": "September 2, 2008",
       "company": "Google",
       "source": "closed"
     },
     {
       "name": "Chromium",
-      "image": "https://i.imgur.com/3BHAvv2.png",
+      "image": "https://i.imgur.com/NFS7svu.png",
       "release": "2 September 2008",
       "company": "Google",
       "source": "open"
     },
     {
       "name": "Brave",
-      "image": "https://i.imgur.com/Nz0xuAL.png",
+      "image": "https://i.imgur.com/VjF0Xzk.png",
       "release": "13 November 2019",
       "company": "Brave Software",
       "source": "open"
     },
     {
       "name": "Edge",
-      "image": "https://i.imgur.com/XbOFdSK.png",
+      "image": "https://i.imgur.com/LYamHGM.png",
       "release": "April 29, 2015",
       "company": "Microsoft",
       "source": "closed"
     },
     {
       "name": "Waterfox",
-      "image": "https://i.imgur.com/ant3oYz.png",
+      "image": "https://i.imgur.com/a1EvVx2.png",
       "release": "27 March 2011",
       "company": "System1",
       "source": "open"
     },
     {
       "name": "Yandex",
-      "image": "https://i.imgur.com/Ion5Fp1.png",
+      "image": "https://i.imgur.com/xpZ0tXh.png",
       "release": "1 October 2012",
-      "company": "Yandex / Mail.ru",
+      "company": "Yandex",
       "source": "closed"
     },
     {
       "name": "Netscape",
-      "image": "https://i.imgur.com/5MTpW6g.png",
+      "image": "https://i.imgur.com/mq3t51c.png",
       "release": "15 December 1994",
       "company": "Netscape",
       "source": "closed"
     },
     {
       "name": "Internet Explorer",
-      "image": "https://i.imgur.com/8ZegwZK.png",
+      "image": "https://i.imgur.com/U3YGsG3.png",
       "release": "August 24, 1995",
       "company": "Microsoft",
       "source": "closed"
     },
     {
       "name": "Safari",
-      "image": "https://i.imgur.com/h9bytrY.png",
+      "image": "https://i.imgur.com/RTlFoBp.png",
       "release": "January 7, 2003",
       "company": "Apple",
       "source": "closed"
     },
     {
       "name": "Tor",
-      "image": "https://i.imgur.com/28RZ9DC.png",
+      "image": "https://i.imgur.com/8KXqHJL.png",
       "release": "20 September 2002",
       "company": "Tor Project",
       "source": "open"
     },
     {
       "name": "Opera GX",
-      "image": "https://i.imgur.com/N1eQbHk.png",
+      "image": "https://i.imgur.com/KBPxrvp.png",
       "release": "June 11, 2019",
       "company": "Opera",
       "source": "closed"
     },
     {
       "name": "Opera",
-      "image": "https://i.imgur.com/GnpwXJP.png",
+      "image": "https://i.imgur.com/VOXupmT.png",
       "release": "April 10, 1995",
       "company": "Opera",
       "source": "closed"
     },
     {
       "name": "Vivaldi",
-      "image": "https://i.imgur.com/0BKMgDU.png",
+      "image": "https://i.imgur.com/gEvPkOK.png",
       "release": "April 6, 2016",
       "company": "Vivaldi Technologies",
       "source": "closed"
     },
     {
       "name": "Otter Browser",
-      "image": "https://i.imgur.com/IXCzaFP.png",
+      "image": "https://i.imgur.com/6I3UYjm.png",
       "release": "January 1, 2014",
       "company": "Otter Browser",
       "source": "open"
     },
     {
       "name": "Samsung Internet",
-      "image": "https://i.imgur.com/wnK8RU8.png",
+      "image": "https://i.imgur.com/BRP5vYZ.png",
       "release": "2015",
       "company": "Samsung",
       "source": "closed"
     },
     {
       "name": "Blisk",
-      "image": "https://i.imgur.com/XbQVmvE.png",
+      "image": "https://i.imgur.com/15Qy0zn.png",
       "release": "October 2022",
       "company": "Blisk",
       "source": "closed"
     },
     {
       "name": "Silk",
-      "image": "https://i.imgur.com/ea5gWM3.jpg",
+      "image": "https://i.imgur.com/BRP5vYZ.png",
       "release": "November 15, 2011",
       "company": "Amazon",
       "source": "closed"
@@ -143,7 +143,7 @@
     {
       "name": "SeaMonkey",
       "image": "https://i.imgur.com/vb6TtqD.png",
-      "release": "January 30, 2006",
+      "release": "January 30, 2006",
       "company": "SeaMonkey Council",
       "source": "open"
     }

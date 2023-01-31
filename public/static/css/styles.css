@@ -15,11 +15,10 @@ header {
     padding: 2px;
 }
 footer {
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
-    padding: 1px;
-    height: 40px;
-    position: absolute;
 }
 a i {
     float: left;
@@ -44,6 +43,14 @@ button:hover {
 a {
     text-decoration: none;
 }
+.bg-green {
+   background: rgb(31,165,50);
+   background: linear-gradient(180deg, rgba(31,165,50,1) 0%, rgba(60,197,104,1) 30%, rgba(120,213,148,1) 50%, rgba(60,197,104,1) 70%, rgba(31,165,50,1) 100%);
+   color: white;
+}
+.padding {
+  padding-top:16px!important;padding-bottom:16px!important
+}
 #content {
     padding: 0 200px;
 }
@@ -60,7 +67,7 @@ a {
     }
 }
 @media only screen and (max-width:600px) {
-    .w3-padding-16 {
+    .padding {
         padding: 8px;
     }
     #image {

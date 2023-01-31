@@ -13,47 +13,47 @@
   <script src="../../static/js/cash.min.js"></script>
   <script src="../../static/js/global.min.js"></script>
   <script src="../../static/js/comments.min.js" defer></script>
+  <script src="script.min.js" defer></script>
 
   <link rel="manifest" href="../../manifest.json">
   <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body class="theme-interactive">
 
   <header>
     <h1 class="w3-center">Guess the Browser Quiz</h1>
-    <p>A group game of guessing popular web browsers that people use to access the internet, it doesn't give so its up
-      to you!</p>
+    <p>A group game of guessing popular web browsers that people use to access the internet, it doesn't give so its up to you!</p>
   </header>
-  <div class="w3-padding-16"></div>
+  <div class="padding"></div>
 
-  <div id="content" class="w3-container w3-center theme-interactive">
+  <div id="content" class="w3-container w3-center">
 
     <div id="loading">
       <p><i class="fa fa-spinner w3-spin" style="font-size:300px"></i></p>
     </div>
 
-    <div id="playable" class="hidden">
+    <div id="playable" align="center" hidden>
       <img src="img/start.jpg" alt="browser logo" id="image">
       <link rel="preload" as="image" id="next_image">
-      <div class="w3-padding-16"></div>
+      <div class="padding"></div>
 
       <h3 id="anwser">Press Start!</h3>
-      <div class="w3-padding-16"></div>
+      <div class="padding"></div>
 
       <div id="buttons">
-        <button id="next" class="w3-button w3-blue w3-center">
+        <button id="next" class="w3-btn w3-blue">
           <i class="fa-solid fa-play"></i> Start Game
         </button>
-        <button id="show" class="w3-button w3-green w3-center">
+        <button id="show" class="w3-btn w3-green w3-center">
           <i class="fa-solid fa-eye"></i> Show Anwser
         </button>
         <br />
-        <button class="w3-button w3-pink w3-padding-16">
+        <button class="w3-btn w3-pink padding">
           <a href="../../"><i class="fa-solid fa-backward"></i> Back</a>
         </button>
       </div>
-      <div class="w3-padding-16"></div>
+      <div class="padding"></div>
 
       <div class="bg-green">
         <h2>How to Play</h2>
@@ -71,9 +71,11 @@
       <p class="w3-center">       <script>document.write(new Date().getFullYear())</script> Joes Demo | <a href="/privacy">Privacy</a>
       </p>
     </footer>
-    <script>
-      g.fetchJSON("../../data/browsers-db.json",data=>{$("#loading").hide();$("#playable").show();let{items}=data,item,pos=-1;items=g.shuffleArray(items);$("#next_image").prop("href",items[0].image);$("#next").on("click",()=>{$("#next").html('<i class="fa-solid fa-forward"></i> Next Logo');pos+=1;item=items[pos];$("#image").prop("src",item.image);$("#anwser").html('<i class="fa-solid fa-face-thinking"></i> Guess now!');$("#next_image").prop("href",items[pos+1].image)});$("#show").on("click",()=>{$("#anwser").html(`<i class="fa-solid fa-circle-info"></i> It is ${item.name } made by ${item.company }. Released ${item.release }`)})});$(document).on("keyup",evt=>{evt.key==" "?g.trigger($("#next"),"click"):"";evt.key=="Enter"?g.trigger($("#show"),"click"):""});
-    </script>
+    <style>
+      .theme-interactive {
+          background: rgb(34,193,195);
+          background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(105,165,80,1) 30%, rgba(190,119,149,1) 50%, rgba(105,165,102,1) 70%, rgba(34,193,195,1) 100%); 
+    </style>
 
 </body>
 
