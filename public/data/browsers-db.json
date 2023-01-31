@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "name": "IceDragon",
+      "image": "https://i.imgur.com/XkMobrA.png",
+      "release": "June 19, 2019",
+      "company": "Comodo",
+      "source": "open"
+    },
+    {
       "name": "Firefox",
       "image": "https://i.imgur.com/DjNiwAR.png",
       "release": "November 9, 2004",
