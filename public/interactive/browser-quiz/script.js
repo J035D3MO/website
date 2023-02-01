@@ -7,14 +7,20 @@ g.fetchJSON("../../data/browsers-db.json", data => {
   $("#next_image").prop("href", items[0].image);
 
   $("#next").on("click", () => {
+
+    try {
     $("#next").html('<i class="fa-solid fa-forward"></i> Next Logo');
     pos += 1;
     item = items[pos];
 
     $("#image").prop("src", item.image);
-    $("#anwser").html('<i class="fa-solid fa-face-thinking"></i> Guess now!');
+    $("#anwser").html(`<i class="fa-solid fa-face-thinking"></i> Round ${pos + 1} - Guess now!`);
     
     $("#next_image").prop("href", items[pos + 1].image);
+    } catch (e){
+      $("#image").prop("src", "img/end.png");
+      $("#anwser").text('Thanks for playing!');
+    }
 
   });
   $("#show").on("click", () => {
