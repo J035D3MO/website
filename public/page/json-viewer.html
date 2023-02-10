@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JSON Viewer - Joes Demo Website</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="../static/css/w3.css">
+  <link rel="stylesheet" href="../static/css/styles.min.css">
+  <script src="../static/js/cash.min.js"></script>
+  <script src="../static/js/global.min.js"></script>
+  <script src="https://embed.spck.io/embed/spck-embed.min.js"></script>
+
+  <link rel="manifest" href="../manifest.json">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="w3-center">Json Viewer</h1>
+    <h3>Preview json files online that the website hosts</h3>
+  </header>
+  <div class="padding"></div>
+
+  <div id="content" class="w3-container w3-center">
+
+    <div class="bg-green"></div>
+
+    <iframe id="editor" src="https://embed.spck.io/?preview=1" frameBorder="0" height="500"></iframe>
+
+    <button class="w3-btn w3-pink padding">
+      <a href="../"><i class="fa-solid fa-backward"></i> Back</a>
+    </button>
+    
+  </div>
+  
+  <div class="padding"></div>
+  
+  <footer>
+      <p class="w3-center">
+        <script>document.write(new Date().getFullYear())</script> Joes Demo | <a href="/privacy">Privacy</a>
+      </p>
+    </footer>
+    <style>
+      #editor {
+        width: 100%;
+        max-width: 500px;
+      }
+    </style>
+    <script>
+      let editor=new SpckEditor('#editor'),file=g.urlParams.get("file");$(".bg-green").html(`<h2>You viewing preview of "${ file }"</h2>`);g.fetch(`../data/${ file }.json`,text=>{editor.connect().then(()=>{return editor.send({project:'Simple Project',open:`${ file }.json`,files:[{path:`${ file }.json`,text:text}]})}).catch(()=>console.log('failure'))});
+    </script>
+
+</body>
+
+</html>
