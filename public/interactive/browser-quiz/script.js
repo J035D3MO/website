@@ -20,6 +20,7 @@ g.fetchJSON("../../data/browsers-db.json", data => {
     } catch (e){
       $("#image").prop("src", "img/end.png");
       $("#anwser").text('Thanks for playing!');
+      $("#next, #show").prop("disabled", true);
     }
 
   });
@@ -29,6 +30,6 @@ g.fetchJSON("../../data/browsers-db.json", data => {
 });
 
 $(document).on("keyup", evt => {
-  evt.key == " " ? g.trigger($("#next"), "click") : ""
-  evt.key == "Enter" ? g.trigger($("#show"), "click") : ""
+  evt.key == " " && !$("#next").prop("disabled") ? g.trigger($("#next"), "click") : ""
+  evt.key == "Enter" && !$("#show").prop("disabled") ? g.trigger($("#show"), "click") : ""
 });
