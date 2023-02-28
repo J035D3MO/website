@@ -20,13 +20,10 @@
 </head>
 
 <body>
-
-  <header>
-    <h1 class="w3-center">Guess the Browser Quiz</h1>
-  </header>
   <div class="padding"></div>
 
   <div id="content" class="w3-container w3-center">
+    <img src="img/logo.png" class="logo" alt="img/logo.png">
 
     <div id="loading">
       <p><i class="fa fa-spinner w3-spin" style="font-size:300px"></i></p>
@@ -69,13 +66,20 @@
 
   <footer>
     <p class="w3-center">
-      <script>document.write(new Date().getFullYear())</script> Joes Demo | <a href="/privacy">Privacy</a>
+      <script>
+        document.write(new Date().getFullYear())
+      </script> Joes Demo | <a href="/privacy">Privacy</a>
     </p>
   </footer>
   <style>
     body {
       background: rgb(34, 193, 195);
       background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(105, 165, 80, 1) 30%, rgba(190, 119, 149, 1) 50%, rgba(105, 165, 102, 1) 70%, rgba(34, 193, 195, 1) 100%);
+    }
+
+    .logo {
+      width: 90%;
+      max-width: 800px;
     }
   </style>
 
