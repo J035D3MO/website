@@ -1,5 +1,4 @@
-{
-   "data": [
+[
    {
       "name": "Google",
       "full_name": "Google LLC",
@@ -142,4 +141,3 @@
      "location": "USA"
    }
 ]
-}

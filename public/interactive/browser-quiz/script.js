@@ -1,9 +1,9 @@
-g.fetchJSON("../../data/browsers-db.json", res => {
+g.fetchJSON("../../data/browsers-db.json", data => {
   $("#loading").hide();
   $("#playable").show();
 
   let item, pos = -1;
-  items = g.shuffleArray(res.data);
+  items = g.shuffleArray(data);
   $("#1").prop("href", items[0].image);
 
   $("#3").on("click", () => {
@@ -19,7 +19,7 @@ setTimeout(() => {
   $("#0").prop("src", item.image);
 $("#2").html(`<i class="fa-solid fa-face-thinking"></i> Round ${pos + 1} - Guess now!`);
   
-}, 2000);
+}, 1500);
     
     $("#1").prop("href", items[pos + 1].image);
     } catch (e){
