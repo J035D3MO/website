@@ -35,6 +35,7 @@ button {
     max-width: 500px;
     margin-bottom: 10px;
     animation: size 2s;
+    border-radius: 12px;
 }
 button:hover {
     rotate: 1.5deg;

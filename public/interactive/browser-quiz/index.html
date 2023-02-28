@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="../../static/css/styles.min.css">
   <script src="../../static/js/cash.min.js"></script>
   <script src="../../static/js/global.min.js"></script>
-  <script src="../../static/js/comments.min.js" defer></script>
+  <!--<script src="../../static/js/comments.min.js" defer></script>-->
   <script src="script.min.js" defer></script>
 
   <link rel="manifest" href="../../manifest.json">
@@ -29,19 +29,19 @@
       <p><i class="fa fa-spinner w3-spin" style="font-size:300px"></i></p>
     </div>
 
-    <div id="playable" align="center" hidden>
-      <img src="img/start.jpg" alt="browser logo" id="image">
-      <link rel="preload" as="image" id="next_image">
+    <div id="playable" hidden>
+      <img src="img/start.jpg" alt="browser logo" id="0">
+      <link rel="preload" as="image" id="1">
       <div class="padding"></div>
 
-      <h3 id="anwser">Press Start!</h3>
+      <h3 id="2">Press Start!</h3>
       <div class="padding"></div>
 
       <div id="buttons">
-        <button id="next" class="w3-btn w3-blue">
+        <button id="3" class="w3-btn w3-blue">
           <i class="fa-solid fa-play"></i> Start Game
         </button>
-        <button id="show" class="w3-btn w3-green w3-center">
+        <button id="4" class="w3-btn w3-green w3-center">
           <i class="fa-solid fa-eye"></i> Show Anwser
         </button>
         <br />
@@ -65,7 +65,7 @@
   </div>
 
   <footer>
-    <p class="w3-center">
+    <p align="center">
       <script>
         document.write(new Date().getFullYear())
       </script> Joes Demo | <a href="/privacy">Privacy</a>
@@ -76,10 +76,14 @@
       background: rgb(34, 193, 195);
       background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(105, 165, 80, 1) 30%, rgba(190, 119, 149, 1) 50%, rgba(105, 165, 102, 1) 70%, rgba(34, 193, 195, 1) 100%);
     }
-
     .logo {
-      width: 90%;
+      width: 100%;
       max-width: 800px;
+      margin-bottom: 20px;
+    }
+    #image {
+      width: 80%;
+      height: auto;
     }
   </style>
 
