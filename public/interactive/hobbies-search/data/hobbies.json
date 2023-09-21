@@ -85,6 +85,11 @@
 		"subCategory": "Indoors"
 	},
 	{
+		"title": "Tai Chi",
+		"category": "General",
+		"subCategory": "Indoors/Outdoors"
+	},
+	{
 		"title": "Breadmaking",
 		"category": "General",
 		"subCategory": "Indoors"
@@ -150,7 +155,7 @@
 		"subCategory": "Indoors"
 	},
 	{
-		"title": "Coloring",
+		"title": "Colouring",
 		"category": "General",
 		"subCategory": "Indoors"
 	},
@@ -180,7 +185,7 @@
 		"subCategory": "Indoors"
 	},
 	{
-		"title": "Craft",
+		"title": "Arts and Craft",
 		"category": "General",
 		"subCategory": "Indoors"
 	},
@@ -296,6 +301,11 @@
 	},
 	{
 		"title": "Fishkeeping",
+		"category": "General",
+		"subCategory": "Indoors"
+	},
+	{
+		"title": "Fishing",
 		"category": "General",
 		"subCategory": "Indoors"
 	},
